@@ -45,6 +45,7 @@
 		B357ABC829A80AB1001F5CAC = {
 			isa = PBXGroup;
 			children = (
+				B357ABEE29A9175F001F5CAC /* README.md */,
 				B357ABD329A80AB2001F5CAC /* Codepath - My Story Project */,
 				B357ABD229A80AB2001F5CAC /* Products */,
 			);
@@ -70,7 +71,6 @@
 				B357ABDF29A80AB2001F5CAC /* LaunchScreen.storyboard */,
 				B357ABE229A80AB2001F5CAC /* Info.plist */,
 				B357ABEA29A8598C001F5CAC /* Context.swift */,
-				B357ABEE29A9175F001F5CAC /* README.md */,
 			);
 			path = "Codepath - My Story Project";
 			sourceTree = "<group>";
