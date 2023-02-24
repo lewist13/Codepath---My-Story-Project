@@ -2,9 +2,9 @@
 
 Submitted by: **TaeVon Lewis**
 
-**Lord Shadow's Story** is an app that introduces Cid Kagenou and his squad Shadow Garden from the anime Eminence in the Shadow.
+**Lord Shadow's Story** is an app that introduces Cid Kagenou and his squad Shadow Garden from the anime The Eminence in Shadow.
 
-Time spent: **About 1** hour spent in total
+Time spent: **About 1** hour spent in total outside of the README's gif issue.
 
 ## Required Features
 
@@ -12,7 +12,6 @@ The following **required** functionality is completed:
 
 - [x] Users are able to see a customized app icon and launch screen
 - [x] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
 - [x] Users are able to see at least 3 context items
 - [x] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
  
@@ -22,16 +21,14 @@ The following **optional** features are implemented:
 - [ ] Allow users to scroll when context items are off-screen (table view implemention)
 
 ## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src=https://imgur.com/7NPjUuz.gif title='Video Walkthrough' width=500 alt='Video Walkthrough' />
-
-GIF created with Gifski
+| Portait                                      | Landscape                                     |
+|----------------------------------------------|--------------------------------------------|
+| <img src=https://user-images.githubusercontent.com/65370736/221258857-a538b2c7-893a-4bae-8777-59630280eaa9.gif width=300><br> | <img src=https://user-images.githubusercontent.com/65370736/221263702-481755bb-67e8-4a6a-aa8b-cbb0ce06786f.gif height=300><br> |
+<!-- ![unit1project-landscape](https://user-images.githubusercontent.com/65370736/221263702-481755bb-67e8-4a6a-aa8b-cbb0ce06786f.gif) -->
 
 ## Notes
 
-Storyboard isn't very intuitive but I didn't really have any issues completing the project.
+Although the user interface design tool provided by the Storyboard may lack some intuitiveness, I did not have a hard time using it for the project's implementation.
 
 ## License
 
