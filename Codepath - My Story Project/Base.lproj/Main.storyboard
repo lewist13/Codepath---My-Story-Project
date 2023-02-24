@@ -1,24 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AZN-oh-G4a">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Lord Shadow-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Lord Shadow" customClass="ViewController" customModule="Codepath___My_Story_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1zD-fy-LJ9">
+                                <rect key="frame" x="32" y="103" width="329" height="355"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="300" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="lord_shadow_pfp" translatesAutoresizingMaskIntoConstraints="NO" id="ogZ-fh-dJs" userLabel="lordshadowpfp">
+                                        <rect key="frame" x="64.666666666666686" y="0.0" width="200" height="200"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="lordshadowpfp"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="PsG-qD-BFM"/>
+                                            <constraint firstAttribute="width" constant="200" id="fje-b1-BOw"/>
+                                        </constraints>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1rg-BN-4Yw">
+                                        <rect key="frame" x="54.000000000000014" y="232" width="221.33333333333337" height="123"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbB-r8-BIz">
+                                                <rect key="frame" x="61.666666666666657" y="0.0" width="98" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="About Me"/>
+                                                <connections>
+                                                    <action selector="didTapContext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TdW-PE-ElB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGI-rL-Yk7">
+                                                <rect key="frame" x="22.333333333333329" y="44.333333333333314" width="176.33333333333337" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Powers and Abilities"/>
+                                                <connections>
+                                                    <action selector="didTapContext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xmJ-Vb-dJJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m55-gb-uCo">
+                                                <rect key="frame" x="0.0" y="88.666666666666686" width="221.33333333333334" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Shadow Garden Members"/>
+                                                <connections>
+                                                    <action selector="didTapContext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptz-2x-nQ7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <gestureRecognizers/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1zD-fy-LJ9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0bo-vB-AfN"/>
+                            <constraint firstItem="1zD-fy-LJ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="EMK-mo-9M2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1zD-fy-LJ9" secondAttribute="bottom" constant="24" id="hjf-DT-qvt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1zD-fy-LJ9" secondAttribute="trailing" constant="16" id="pBR-OI-4cD"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Lord Shadow" id="52J-Re-0yL"/>
+                    <connections>
+                        <outlet property="lordshadowpfp" destination="ogZ-fh-dJs" id="pOP-0f-3pj"/>
+                        <segue destination="su0-cb-ffS" kind="show" identifier="detailSegue" id="ocy-EW-AMM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1976.3358778625955" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dus-Ko-JXR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AZN-oh-G4a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wtd-Rv-vBT">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="laO-oW-znI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1c5-s2-Nc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049.6183206106871" y="-2.1126760563380285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="CKc-rk-tQd">
+            <objects>
+                <viewController id="su0-cb-ffS" customClass="DetailViewController" customModule="Codepath___My_Story_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t39-TK-kqX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="zE4-Mt-Ohy">
+                                <rect key="frame" x="16" y="119" width="240" height="287.33333333333326"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="smj-UR-8TP" userLabel="Context Image">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="contextImage"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="Pa4-Cp-m4T"/>
+                                            <constraint firstAttribute="width" constant="240" id="eTc-C9-2ey"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="Zyr-pO-cGV">
+                                        <rect key="frame" x="76.333333333333343" y="267" width="87.333333333333343" height="20.333333333333314"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="contextDesc"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="smj-UR-8TP" firstAttribute="leading" secondItem="zE4-Mt-Ohy" secondAttribute="leading" id="vX7-ig-B5i"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wwc-e0-pTb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wwc-e0-pTb" firstAttribute="trailing" secondItem="zE4-Mt-Ohy" secondAttribute="trailing" constant="16" id="5nJ-L3-U9j"/>
+                            <constraint firstItem="Wwc-e0-pTb" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zE4-Mt-Ohy" secondAttribute="bottom" constant="16" id="H4J-mN-TYk"/>
+                            <constraint firstItem="zE4-Mt-Ohy" firstAttribute="top" secondItem="Wwc-e0-pTb" secondAttribute="top" constant="16" id="j4G-eX-w78"/>
+                            <constraint firstItem="zE4-Mt-Ohy" firstAttribute="leading" secondItem="Wwc-e0-pTb" secondAttribute="leading" constant="16" id="wqn-3L-ycx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bgr-9c-rYO"/>
+                    <connections>
+                        <outlet property="contextDesc" destination="Zyr-pO-cGV" id="JGD-xw-HKV"/>
+                        <outlet property="contextImage" destination="smj-UR-8TP" id="jF4-nx-rft"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhJ-j3-V0Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="730"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lord_shadow_pfp" width="1280" height="720"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

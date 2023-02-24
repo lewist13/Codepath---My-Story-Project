@@ -13,6 +13,8 @@
 		B357ABDC29A80AB2001F5CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B357ABDA29A80AB2001F5CAC /* Main.storyboard */; };
 		B357ABDE29A80AB2001F5CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B357ABDD29A80AB2001F5CAC /* Assets.xcassets */; };
 		B357ABE129A80AB2001F5CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B357ABDF29A80AB2001F5CAC /* LaunchScreen.storyboard */; };
+		B357ABEB29A8598C001F5CAC /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357ABEA29A8598C001F5CAC /* Context.swift */; };
+		B357ABED29A85C68001F5CAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357ABEC29A85C68001F5CAC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		B357ABDD29A80AB2001F5CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B357ABE029A80AB2001F5CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B357ABE229A80AB2001F5CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B357ABEA29A8598C001F5CAC /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		B357ABEC29A85C68001F5CAC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B357ABEE29A9175F001F5CAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 		B357ABD329A80AB2001F5CAC /* Codepath - My Story Project */ = {
 			isa = PBXGroup;
 			children = (
+				B357ABEC29A85C68001F5CAC /* DetailViewController.swift */,
 				B357ABD429A80AB2001F5CAC /* AppDelegate.swift */,
 				B357ABD629A80AB2001F5CAC /* SceneDelegate.swift */,
 				B357ABD829A80AB2001F5CAC /* ViewController.swift */,
@@ -63,6 +69,8 @@
 				B357ABDD29A80AB2001F5CAC /* Assets.xcassets */,
 				B357ABDF29A80AB2001F5CAC /* LaunchScreen.storyboard */,
 				B357ABE229A80AB2001F5CAC /* Info.plist */,
+				B357ABEA29A8598C001F5CAC /* Context.swift */,
+				B357ABEE29A9175F001F5CAC /* README.md */,
 			);
 			path = "Codepath - My Story Project";
 			sourceTree = "<group>";
@@ -139,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B357ABD929A80AB2001F5CAC /* ViewController.swift in Sources */,
+				B357ABEB29A8598C001F5CAC /* Context.swift in Sources */,
+				B357ABED29A85C68001F5CAC /* DetailViewController.swift in Sources */,
 				B357ABD529A80AB2001F5CAC /* AppDelegate.swift in Sources */,
 				B357ABD729A80AB2001F5CAC /* SceneDelegate.swift in Sources */,
 			);
@@ -284,9 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Codepath - My Story Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,9 +324,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Codepath - My Story Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
