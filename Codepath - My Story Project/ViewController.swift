@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     let contextTitles = ["About Me", "Powers and Abilities", "Shadow Garden Members"]
         let contextImages = ["cid_kagenou", "cid_kagenou_powers", "shadow_garden"]
         let contextDescriptions = [
-            "Fascinated by shadowbrokers, a young Japanese boy once trained for years to become a secret powerful individual while playing the role of a mob character in public. Having realized his limits as a human, he eventually came to the conclusion that he needed to attain magic. In his delusion, he ran into a truck and died, only to be reincarnated as Cid Kagenou, the second child of a noble family.",
-            "Iris Midgar, upon facing him under his \"Shadow\" persona, claimed Cid to be \"the most powerful being in the world\", even though he was not even fighting her seriously. In fact, this also applies to other worlds, defeating Ragnarok, a demon that ruled another dimension, with relative ease. So far, even though he has yet to go all-out, all of Cid's battles have ended with overwhelming victories, with the only opponents he had to get a \"little serious\" against being Aurora's projection, Beatrix, Elisabeth, Alpha, and the aforementioned Ragnarok.\nPowers include:\nPretty much everything you can imagine...",
+            "Fascinated by shadowbrokers, a young Japanese boy once trained for years to become a secret powerful individual while playing the role of a mob character in public. In his delusion, he ran into a truck and died, and reincarnated as Cid Kagenou.",
+            "Iris Midgar, upon facing him under his \"Shadow\" persona, claimed Cid to be \"the most powerful being in the world\". So far, even though he has yet to go all-out, all of Cid's battles have ended with overwhelming victories.",
             "Shadow Garden is an mysterious hidden organization founded by Cid Kagenō also known as Shadow. Its primary goal was to eliminate the Cult of Diablos and prevent them from resurrecting the ancient demon, Diabolos."
         ]
     
