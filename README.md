@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 | Portait                                      | Landscape                                     |
 |----------------------------------------------|--------------------------------------------|
-| <img src=https://user-images.githubusercontent.com/65370736/221258857-a538b2c7-893a-4bae-8777-59630280eaa9.gif width=300><br> | <img src=https://user-images.githubusercontent.com/65370736/221279444-1d26f1df-c684-4e8b-a704-4d91a6627a22.gif height=200><br> |
+| <img src=https://user-images.githubusercontent.com/65370736/225779652-1293863c-f911-4709-ad24-fe8d2922c521.gif width=300><br> | <img src=https://user-images.githubusercontent.com/65370736/225779754-940afc77-c42a-4a9d-bfcc-3d5dbd369138.gif height=300><br> |
 
 
 ## License
