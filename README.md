@@ -1,10 +1,10 @@
-# Project 1 - *Lord Shadow's Story*
+# Project 1 - *Lord Shadow's Story (Storyboard Version)*
 
 Submitted by: **TaeVon Lewis**
 
 **Lord Shadow's Story** is an app that introduces Cid Kagenou and his squad Shadow Garden from the anime The Eminence in Shadow.
 
-Time spent: **About 1** hour spent in total outside of the README's gif issue.
+Time spent: **About 1** hour spent in total
 
 ## Required Features
 
